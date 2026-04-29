@@ -12,6 +12,8 @@ mod version_tracker;
 
 pub mod snapshot;
 
+mod as_view;
+mod read_view;
 #[cfg(test)]
 mod tests;
 mod vectors;
